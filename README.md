@@ -5,6 +5,7 @@ Stand alone implementation of a DS18B20 interface using the ESP-IDF framework on
 ## Status
 
 * 2025-04-06 "hello world" example working
+* Code from @aZholtikov builds but does not detect devices.
 
 ## 2025-04-06 Plan
 
@@ -73,3 +74,8 @@ I (424) boot: Loaded app from partition at offset 0x10000
 Hello world!
 This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 2MB external flash
 ```
+
+## 2025-04-06 find a driver
+
+* <https://pdacontrolen.com/esp32-ds18b20-sensor-on-esp-idf-temperature-onewire/> ESP32 but worth a shot. Nope. Fails right off the bat.
+* <https://github.com/aZholtikov/zh_ds18b20> requires <https://github.com/aZholtikov/zh_onewire> Files build. Runs but does not detect any onewire devices.
