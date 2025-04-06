@@ -2,6 +2,10 @@
 
 Stand alone implementation of a DS18B20 interface using the ESP-IDF framework on an ESP8266
 
+## Status
+
+* 2025-04-06 "hello world" example working
+
 ## 2025-04-06 Plan
 
 Follow along with the instructions at <https://github.com/HankB/Fun_with_ESP8266/tree/main/SDK_bare> to build a test bed for DS18B20 drivers. Output will be to the serial monitor - no WiFi will be employed.
