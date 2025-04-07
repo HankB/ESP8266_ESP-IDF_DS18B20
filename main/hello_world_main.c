@@ -6,7 +6,7 @@ void app_main(void)
     esp_log_level_set("zh_ds18b20", ESP_LOG_NONE);
     uint8_t *rom = NULL;
     float temperature = 0.0;
-    zh_onewire_init(GPIO_NUM_4);
+    zh_onewire_init(GPIO_NUM_0);
     if (zh_onewire_reset() != ESP_OK)
     {
         printf("There are no 1-Wire devices available on the bus.\n");
