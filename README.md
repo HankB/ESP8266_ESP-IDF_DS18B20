@@ -79,3 +79,4 @@ This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 2MB external fl
 
 * <https://pdacontrolen.com/esp32-ds18b20-sensor-on-esp-idf-temperature-onewire/> ESP32 but worth a shot. Nope. Fails right off the bat.
 * <https://github.com/aZholtikov/zh_ds18b20> requires <https://github.com/aZholtikov/zh_onewire> Files build. Runs but does not detect any onewire devices.
+* <https://github.com/electronicayciencia/esp8266-learning/tree/main/ds1820> No devices then crashes. :-/
